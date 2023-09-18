@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Qual a proposta da Condo-Link?',
+    // eslint-disable-next-line no-undef
     Svg: require('@site/static/img/undraw_town_re_2ng5.svg').default,
     description: (
       <>
@@ -14,6 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Por que usar a Condo-Link?',
+    // eslint-disable-next-line no-undef
     Svg: require('@site/static/img/undraw_choosing_house_re_1rv7.svg').default,
     description: (
       <>
@@ -23,6 +25,7 @@ const FeatureList = [
   },
 ];
 
+// eslint-disable-next-line react/prop-types
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--6')}>

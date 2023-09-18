@@ -1,7 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+// eslint-disable-next-line no-undef
 const lightCodeTheme = require('prism-react-renderer/themes/github');
+// eslint-disable-next-line no-undef
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -38,12 +40,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          // eslint-disable-next-line no-undef
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
           showReadingTime: true,
         },
         theme: {
+          // eslint-disable-next-line no-undef
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
@@ -118,4 +122,5 @@ const config = {
     }),
 };
 
+// eslint-disable-next-line no-undef
 module.exports = config;
