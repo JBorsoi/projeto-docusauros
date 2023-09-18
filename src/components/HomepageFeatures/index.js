@@ -4,32 +4,20 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Qual a proposta da Condo-Link?',
+    Svg: require('@site/static/img/undraw_town_re_2ng5.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A condo-link está no mercado pra inserir nos condomínios um sistema eletrônico com a finalidade de facilitar os procedimentos do dia a dia de um condomínio.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Por que usar a Condo-Link?',
+    Svg: require('@site/static/img/undraw_choosing_house_re_1rv7.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       Com tecnologia de ponta e fácil acesso a Condo-Link chega ao mercado trazendo o melhor aplicativo de controle para gerenciar as áreas comuns  e de lazer do condomínio trazendo mais agilidade e facilidade de acesso na hora de fazer as suas reservas.
       </>
     ),
   },
@@ -37,7 +25,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
