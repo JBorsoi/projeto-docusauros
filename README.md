@@ -1,3 +1,4 @@
+![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 # Instruções
 
 O site foi criado utilizando o gerador de site estático [Docusaurus 2](https://docusaurus.io/).
