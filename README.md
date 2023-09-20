@@ -9,9 +9,9 @@ Abra o git bash e digite:
 $ git clone https://github.com/JBorsoi/projeto-docusauros.git
 ```
 ### Configurando ambiente
-Ainda usando git bash, dentro da pasta do projeto, instale o Yarn para rodar o site localmente:
+Ainda usando git bash, dentro da pasta do projeto, instale o Yarn para rodar o site localmente (você precisará ter o npm instalado, que vem junto com a instalação do Node.js):
 ```
-$ yarn install
+$ npm install --global yarn
 ```
 ### Rodar site localmente
 ```
